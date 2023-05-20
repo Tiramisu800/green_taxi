@@ -1,7 +1,7 @@
 import 'package:fl_country_code_picker/fl_country_code_picker.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:green_taxi/views/otp_verification_screen.dart';
+import 'package:besafe/views/otp_verification_screen.dart';
 
 import '../widgets/green_intro_widget.dart';
 import '../widgets/login_widget.dart';
@@ -18,7 +18,7 @@ class _LoginScreenState extends State<LoginScreen> {
 
   final countryPicker = const FlCountryCodePicker();
 
-  CountryCode countryCode = CountryCode(name: 'Pakistan', code: "PK", dialCode: "+92");
+  CountryCode countryCode = CountryCode(name: 'Kazakhstan', code: "KZ", dialCode: "+77");
 
 
   onSubmit(String? input){

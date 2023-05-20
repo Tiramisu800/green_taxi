@@ -3,7 +3,7 @@ import 'package:flutter_credit_card/credit_card_brand.dart';
 import 'package:flutter_credit_card/flutter_credit_card.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:green_taxi/controller/auth_controller.dart';
+import 'package:besafe/controller/auth_controller.dart';
 
 import '../utils/app_colors.dart';
 import '../widgets/green_intro_widget.dart';

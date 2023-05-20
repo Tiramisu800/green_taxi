@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:green_taxi/controller/auth_controller.dart';
-import 'package:green_taxi/utils/app_colors.dart';
-import 'package:green_taxi/widgets/green_intro_widget.dart';
+import 'package:besafe/controller/auth_controller.dart';
+import 'package:besafe/utils/app_colors.dart';
+import 'package:besafe/widgets/green_intro_widget.dart';
 
 import '../widgets/otp_verification_widget.dart';
 

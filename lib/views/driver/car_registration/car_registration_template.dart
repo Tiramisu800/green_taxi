@@ -2,17 +2,17 @@ import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:green_taxi/controller/auth_controller.dart';
-import 'package:green_taxi/utils/app_colors.dart';
-import 'package:green_taxi/views/driver/car_registration/pages/document_uploaded_page.dart';
-import 'package:green_taxi/views/driver/car_registration/pages/location_page.dart';
-import 'package:green_taxi/views/driver/car_registration/pages/upload_document_page.dart';
-import 'package:green_taxi/views/driver/car_registration/pages/vehical_color_page.dart';
-import 'package:green_taxi/views/driver/car_registration/pages/vehical_make.dart';
-import 'package:green_taxi/views/driver/car_registration/pages/vehical_model_page.dart';
-import 'package:green_taxi/views/driver/car_registration/pages/vehical_model_year_page.dart';
-import 'package:green_taxi/views/driver/car_registration/pages/vehical_number_page.dart';
-import 'package:green_taxi/views/driver/car_registration/pages/vehical_type_page.dart';
+import 'package:besafe/controller/auth_controller.dart';
+import 'package:besafe/utils/app_colors.dart';
+import 'package:besafe/views/driver/car_registration/pages/document_uploaded_page.dart';
+import 'package:besafe/views/driver/car_registration/pages/location_page.dart';
+import 'package:besafe/views/driver/car_registration/pages/upload_document_page.dart';
+import 'package:besafe/views/driver/car_registration/pages/vehical_color_page.dart';
+import 'package:besafe/views/driver/car_registration/pages/vehical_make.dart';
+import 'package:besafe/views/driver/car_registration/pages/vehical_model_page.dart';
+import 'package:besafe/views/driver/car_registration/pages/vehical_model_year_page.dart';
+import 'package:besafe/views/driver/car_registration/pages/vehical_number_page.dart';
+import 'package:besafe/views/driver/car_registration/pages/vehical_type_page.dart';
 
 import '../../../widgets/green_intro_widget.dart';
 import '../verification_pending_screen.dart';

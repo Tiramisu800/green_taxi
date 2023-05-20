@@ -10,10 +10,10 @@ import 'package:geocoding/geocoding.dart' as geoCoding;
 import 'package:get/get.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:google_maps_webservice/places.dart';
-import 'package:green_taxi/models/user_model/user_model.dart';
-import 'package:green_taxi/views/driver/car_registration/car_registration_template.dart';
-import 'package:green_taxi/views/home.dart';
-import 'package:green_taxi/views/profile_settings.dart';
+import 'package:besafe/models/user_model/user_model.dart';
+import 'package:besafe/views/driver/car_registration/car_registration_template.dart';
+import 'package:besafe/views/home.dart';
+import 'package:besafe/views/profile_settings.dart';
 import 'package:path/path.dart' as Path;
 
 import '../utils/app_constants.dart';

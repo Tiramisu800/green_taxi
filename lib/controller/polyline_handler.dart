@@ -3,8 +3,8 @@ import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
-import 'package:green_taxi/utils/app_colors.dart';
-import 'package:green_taxi/utils/app_constants.dart';
+import 'package:besafe/utils/app_colors.dart';
+import 'package:besafe/utils/app_constants.dart';
 import 'package:http/http.dart' as http;
 List<LatLng> polyList = [];
 bool internet = true;

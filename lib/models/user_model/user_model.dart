@@ -15,9 +15,9 @@ class UserModel {
   UserModel({this.name,this.mallAddress,this.hAddress,this.bAddress,this.image});
 
   UserModel.fromJson(Map<String,dynamic> json){
-    bAddress = json['business_address'];
-    hAddress = json['home_address'];
-    mallAddress = json['shopping_address'];
+    bAddress = json['business'];
+    hAddress = json['home'];
+    mallAddress = json['shopping'];
     name = json['name'];
     image = json['image'];
     homeAddress = LatLng(json['home_latlng'].latitude, json['home_latlng'].longitude);

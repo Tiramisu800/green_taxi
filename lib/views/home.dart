@@ -8,7 +8,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:flutter/services.dart' show rootBundle;
 import 'package:google_maps_webservice/places.dart';
-import 'package:green_taxi/views/my_profile.dart';
+import 'package:besafe/views/my_profile.dart';
 
 import '../controller/auth_controller.dart';
 import '../controller/polyline_handler.dart';
@@ -569,7 +569,7 @@ class _HomeScreenState extends State<HomeScreen> {
           const SizedBox(
             height: 10,
           ),
-          Text(
+          const Text(
             "Select Your Location",
             style: TextStyle(
                 color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),
@@ -577,7 +577,7 @@ class _HomeScreenState extends State<HomeScreen> {
           const SizedBox(
             height: 20,
           ),
-          Text(
+          const Text(
             "Home Address",
             style: TextStyle(
                 color: Colors.black, fontSize: 16, fontWeight: FontWeight.bold),
@@ -628,7 +628,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 children: [
                   Text(
                     authController.myUser.value.hAddress!,
-                    style: TextStyle(
+                    style: const TextStyle(
                         color: Colors.black,
                         fontSize: 12,
                         fontWeight: FontWeight.w600),
@@ -641,7 +641,7 @@ class _HomeScreenState extends State<HomeScreen> {
           const SizedBox(
             height: 20,
           ),
-          Text(
+          const Text(
             "Business Address",
             style: TextStyle(
                 color: Colors.black, fontSize: 16, fontWeight: FontWeight.bold),
@@ -678,7 +678,7 @@ class _HomeScreenState extends State<HomeScreen> {
             child: Container(
               width: Get.width,
               height: 50,
-              padding: EdgeInsets.symmetric(horizontal: 10),
+              padding: const EdgeInsets.symmetric(horizontal: 10),
               decoration: BoxDecoration(
                   color: Colors.white,
                   borderRadius: BorderRadius.circular(8),
@@ -692,7 +692,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 children: [
                   Text(
                     authController.myUser.value.bAddress!,
-                    style: TextStyle(
+                    style: const TextStyle(
                         color: Colors.black,
                         fontSize: 12,
                         fontWeight: FontWeight.w600),
@@ -729,7 +729,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
               await getPolylines(source, destination);
 
-              // drawPolyline(place);
+              drawPolyline(place);
 
               myMapController!.animateCamera(CameraUpdate.newCameraPosition(
                   CameraPosition(target: source, zoom: 14)));

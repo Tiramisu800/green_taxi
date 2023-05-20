@@ -4,16 +4,16 @@ import 'package:firebase_core/firebase_core.dart' show FirebaseOptions;
 import 'package:flutter/foundation.dart'
     show defaultTargetPlatform, kIsWeb, TargetPlatform;
 
-/// Default [FirebaseOptions] for use with your Firebase apps.
-///
-/// Example:
-/// ```dart
-/// import 'firebase_options.dart';
-/// // ...
-/// await Firebase.initializeApp(
-///   options: DefaultFirebaseOptions.currentPlatform,
-/// );
-/// ```
+// / Default [FirebaseOptions] for use with your Firebase apps.
+// /
+// / Example:
+// / ```dart
+// / import 'firebase_options.dart';
+// / // ...
+// / await Firebase.initializeApp(
+// /   options: DefaultFirebaseOptions.currentPlatform,
+// / );
+// / ```
 class DefaultFirebaseOptions {
   static FirebaseOptions get currentPlatform {
     if (kIsWeb) {
@@ -50,20 +50,20 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: ' ',
-    appId: '',
-    messagingSenderId: ' ',
-    projectId: ' ',
-    storageBucket: ' ',
+    apiKey: 'AIzaSyD7ebT9EqIeJmEpPbF-WQ2XX9RluvBRXf4',
+    appId: '1:65250836771:android:4bbadd23ab7af9c5098c96',
+    messagingSenderId: '65250836771',
+    projectId: 'besafe-386914',
+    storageBucket: 'besafe-386914.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: ' ',
-    appId: ' ',
-    messagingSenderId: ' ',
-    projectId: ' ',
-    storageBucket: ' ',
-    iosClientId: ' ',
-    iosBundleId: ' ',
+    apiKey: 'AIzaSyDy4YR4bzhtYnndvX6nflC4L1v2Npe-2kM',
+    appId: '1:65250836771:ios:9e21e488a30fd1b5098c96',
+    messagingSenderId: '65250836771',
+    projectId: 'besafe-386914',
+    storageBucket: 'besafe-386914.appspot.com',
+    iosClientId: '65250836771-qehhu2396klbi3m4gi5msjb4kcrg4v51.apps.googleusercontent.com',
+    iosBundleId: 'com.dotcoder.greenTaxi',
   );
 }

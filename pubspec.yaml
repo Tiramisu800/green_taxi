@@ -1,4 +1,4 @@
-name: green_taxi
+name: besafe
 description: A new Flutter project.
 
 # The following line prevents the package from being accidentally published to
@@ -33,22 +33,53 @@ dependencies:
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
-  cupertino_icons: ^1.0.2
+  cupertino_icons: ^1.0.5
   get: ^4.6.5
-  flutter_svg: ^1.1.4
-  google_fonts: ^3.0.1
-  fl_country_code_picker: ^0.0.2+1
-  pinput: ^2.2.12
-  firebase_core: ^1.21.1
-  firebase_auth: ^3.7.0
-  image_picker: ^0.8.5+3
-  cloud_firestore: ^3.4.6
-  firebase_storage: ^10.3.7
-  google_maps_flutter: ^2.2.0
+  flutter_svg: ^2.0.5
+  google_fonts: ^4.0.4
+  fl_country_code_picker: ^0.1.2
+  pinput: ^2.2.31
+  firebase_core: ^2.13.0
+  firebase_auth: ^4.6.1
+  image_picker: ^0.8.7+5
+  cloud_firestore: ^4.7.1 
+  firebase_storage: ^11.2.1
+  google_maps_flutter: ^2.2.6
   flutter_google_places: ^0.3.0
-  google_maps_webservice:
-  geocoding: ^2.0.5
-  flutter_credit_card: ^3.0.4
+  google_maps_webservice: 
+  geocoding: ^2.1.0
+  flutter_credit_card: ^3.0.6
+  http: ^0.13.6
+  json_serializable: ^6.6.2
+  json_annotation: ^4.8.1
+  flutter_launcher_icons: "^0.13.1"
+  flutter_native_splash: ^2.2.19
+
+flutter_native_splash:
+  color: "#4CE5B1"
+  image: "assets/logo.png"
+  android: true
+  ios: true
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/logo.png"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+  remove_alpha_ios: true
+  web:
+    generate: true
+    image_path: "assets/logo.png"
+    background_color: "#hexcode"
+    theme_color: "#hexcode"
+  windows:
+    generate: true
+    image_path: "assets/logo.png"
+    icon_size: 48 # min:48, max:256, default: 48
+  macos:
+    generate: true
+    image_path: "assets/logo.png"
+
 
 
 
@@ -61,7 +92,10 @@ dev_dependencies:
   # activated in the `analysis_options.yaml` file located at the root of your
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
-  flutter_lints: ^2.0.0
+  flutter_lints: ^2.0.1
+  build_runner: ^2.3.3
+  
+
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec

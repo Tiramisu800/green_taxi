@@ -1,7 +1,7 @@
 import 'package:get/get.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:green_taxi/views/decision_screen/decission_screen.dart';
+import 'package:besafe/views/decision_screen/decission_screen.dart';
  import 'package:firebase_core/firebase_core.dart';
  import 'controller/auth_controller.dart';
 import 'firebase_options.dart';

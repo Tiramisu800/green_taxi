@@ -2,11 +2,12 @@ import 'package:fl_country_code_picker/fl_country_code_picker.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:green_taxi/utils/app_constants.dart';
-import 'package:green_taxi/views/otp_verification_screen.dart';
-import 'package:green_taxi/widgets/text_widget.dart';
+import 'package:besafe/utils/app_constants.dart';
+import 'package:besafe/views/otp_verification_screen.dart';
+import 'package:besafe/widgets/text_widget.dart';
 
-Widget loginWidget(CountryCode countryCode, Function onCountryChange,Function onSubmit) {
+Widget loginWidget(
+    CountryCode countryCode, Function onCountryChange, Function onSubmit) {
   return Padding(
     padding: const EdgeInsets.symmetric(horizontal: 20),
     child: Column(
@@ -45,7 +46,7 @@ Widget loginWidget(CountryCode countryCode, Function onCountryChange,Function on
 
                           Expanded(
                             child: Container(
-                              child: countryCode.flagImage,
+                              child: countryCode.flagImage(),
                             ),
                           ),
 
@@ -68,7 +69,7 @@ Widget loginWidget(CountryCode countryCode, Function onCountryChange,Function on
                 child: Container(
                   padding: EdgeInsets.symmetric(horizontal: 10),
                   child: TextField(
-                    onSubmitted: (String? input)=> onSubmit(input),
+                    onSubmitted: (String? input) => onSubmit(input),
                     decoration: InputDecoration(
                         hintStyle: GoogleFonts.poppins(
                             fontSize: 12, fontWeight: FontWeight.normal),

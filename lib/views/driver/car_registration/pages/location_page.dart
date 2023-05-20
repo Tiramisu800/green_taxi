@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:green_taxi/utils/app_colors.dart';
+import 'package:besafe/utils/app_colors.dart';
 
 class LocationPage extends StatefulWidget {
     LocationPage({Key? key,required this.selectedLocation,required this.onSelect}) : super(key: key);

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:green_taxi/utils/app_colors.dart';
+import 'package:besafe/utils/app_colors.dart';
 
 import '../../../widgets/green_intro_widget.dart';
 
